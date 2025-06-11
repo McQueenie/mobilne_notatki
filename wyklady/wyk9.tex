@@ -1,0 +1,100 @@
+\section*{Wykład 9 - Animacje 2D}
+\textit{5.05.2025 - Dr inż. Jakub Długosz}
+
+\section{Definicja animacji}
+\textbf{Animacja} -- technika filmowa polegająca na tworzeniu efektu ożywienia martwych kształtów przez dokonywanie serii pojedynczych zdjęć rysunków, wycinanek, kukiełek lub sylwetek i wyświetlaniu ich w sposób ciągły.
+
+\textit{Kluczowa zasada Material Design}: \textbf{Ruch tworzy znaczenie} -- animacje są nieodzownym elementem komunikacji z użytkownikiem, tworzą iluzję obcowania z fizycznymi obiektami.
+
+\section{12 zasad klasycznych animacji (Johnston i Thomas, 1981)}
+Animatorzy Disney sformułowali fundamentalne zasady tworzenia animacji w książce \textit{The Illusion of Life: Disney Animation}. Zasady te są nadal aktualne w projektowaniu interfejsów.
+
+\section{Wytyczne projektowania animacji}
+
+\subsection{Apple Human Interface Guidelines - Motion}
+\textbf{Najważniejsze zasady:}
+\begin{enumerate}[itemsep=0pt]
+    \item Używaj subtelnego ruchu do komunikacji
+    \item Dodawaj animacje celowo, wspierając doświadczenie bez przytłaczania
+    \item Uczyń animacje opcjonalnymi
+    \item Dąż do realizmu i wiarygodności
+    \item Preferuj krótkie, precyzyjne animacje
+    \item Unikaj animacji w często występujących interakcjach
+    \item Używaj animowanych symboli tam, gdzie ma to sens
+\end{enumerate}
+
+\textbf{Dostępność:}
+\begin{itemize}[itemsep=0pt]
+    \item Pozwól użytkownikom kontrolować efekty ruchu
+    \item Zachowaj ostrożność przy elementach migających lub poruszających się
+\end{itemize}
+
+\subsection{Material Design - Motion}
+Material Design definiuje precyzyjne wytyczne dla animacji, włączając:
+\begin{itemize}[itemsep=0pt]
+    \item \textbf{Transition patterns} -- wzorce przejść między stanami
+    \item \textbf{Easing functions} -- funkcje kontroli przebiegu animacji
+    \item \textbf{Duration tokens} -- tokeny czasowe dla różnych typów animacji
+\end{itemize}
+
+\section{Funkcje kontroli przebiegu animacji}
+
+\subsection{Krzywe Béziera}
+Funkcje easing oparte są na krzywych Béziera, które definiują przebieg animacji w czasie. Podstawowe typy:
+\begin{itemize}[itemsep=0pt]
+    \item \texttt{linear} -- stała prędkość
+    \item \texttt{ease-in} -- powolny start, szybkie zakończenie
+    \item \texttt{ease-out} -- szybki start, powolne zakończenie
+    \item \texttt{ease-in-out} -- powolny start i koniec
+\end{itemize}
+
+\section{Implementacja animacji}
+
+\subsection{CSS}
+\begin{verbatim}
+/* Przykład animacji CSS */
+@keyframes slide {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px); }
+}
+.element {
+    animation: slide 0.3s ease-out;
+}
+\end{verbatim}
+
+\subsection{Android}
+\textbf{Podstawowe transformacje:}
+\begin{itemize}[itemsep=0pt]
+    \item \texttt{<scale>} -- przeskalowanie
+    \item \texttt{<rotate>} -- obrót
+    \item \texttt{<alpha>} -- przezroczystość
+    \item \texttt{<translate>} -- przesunięcie
+\end{itemize}
+
+\textbf{Jetpack Compose} oferuje nowoczesne API do animacji z deklaratywnym podejściem.
+
+\section{Specjalne efekty animacji}
+
+\subsection{Efekt Kena Burnsa}
+Technika animacji polegająca na powolnym przybliżaniu lub oddalaniu oraz panoramowaniu statycznego obrazu, często używana w prezentacjach fotografii.
+
+\subsection{Efekt paralaksy}
+Technika, w której elementy tła przesuwają się wolniej niż elementy pierwszoplanowe, tworząc iluzję głębi.
+
+\section{Najlepsze praktyki}
+\begin{enumerate}
+    \item \textbf{Celowość} -- każda animacja powinna mieć jasny cel komunikacyjny
+    \item \textbf{Wydajność} -- animacje nie powinny wpływać negatywnie na responsywność
+    \item \textbf{Dostępność} -- możliwość wyłączenia animacji dla użytkowników wrażliwych na ruch
+    \item \textbf{Spójność} -- zachowanie jednolitego stylu animacji w całej aplikacji
+    \item \textbf{Mikroanimacje} -- małe, subtelne animacje poprawiające UX
+\end{enumerate}
+
+\section{Narzędzia}
+\begin{itemize}[itemsep=0pt]
+    \item \textbf{Figma} -- prototypowanie z animacjami przejść
+    \item \textbf{CSS/JavaScript} -- implementacja w aplikacjach webowych
+    \item \textbf{Android Animation Framework} -- natywne animacje Android
+    \item \textbf{Core Animation (iOS)} -- framework Apple dla animacji
+\end{itemize}
+

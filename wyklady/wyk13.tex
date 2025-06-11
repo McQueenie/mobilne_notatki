@@ -1,0 +1,66 @@
+\section*{Wykład 13 - Blender - Animacje i Efekty}
+\textbf{Data:} 2 czerwca 2025
+
+\section{Animacje w Blenderze}
+
+\textbf{Tworzenie klatek kluczowych:}
+\begin{itemize}[leftmargin=*]
+    \item \texttt{i} -- utworzenie klatki kluczowej z właściwościami zaznaczonych obiektów
+    \item Klatki kluczowe przechowują stan obiektów (pozycja, rotacja, skala, właściwości materiałów)
+    \item Blender automatycznie interpoluje wartości między klatkami kluczowymi
+\end{itemize}
+
+\section{Efekty specjalne - Dym i Ogień}
+
+\subsection{Konfiguracja podstawowa}
+\begin{enumerate}
+    \item Dodanie obiektu emitującego (np. UV Sphere)
+    \item Dodanie domeny (Cube otaczający emiter)
+    \item Przypisanie fizyki:
+    \begin{itemize}
+        \item Emiter: \texttt{Fizyka → Ciecz → Flow}
+        \item Domena: \texttt{Fizyka → Ciecz → Domain}
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Ustawienia domeny dymu}
+\textbf{Kluczowe parametry:}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Adaptive Domain} -- automatyczne dostosowanie rozmiaru domeny
+    \item \textbf{Resolution Divisions} -- zwiększenie do 256 dla lepszej jakości
+    \item \textbf{Gas → Dissolve} -- rozpuszczanie dymu w czasie
+\end{itemize}
+
+\section{Edytor węzłów dla materiałów}
+
+\subsection{Aktywacja}
+Aby korzystać z edytora węzłów (\texttt{Shift + F3}):
+\begin{itemize}[leftmargin=*]
+    \item We właściwościach powierzchni materiału zaznaczyć \textbf{„Używaj węzłów"}
+\end{itemize}
+
+\subsection{Węzły dla efektów objętościowych}
+\textbf{Podstawowa konfiguracja dla dymu:}
+\begin{enumerate}
+    \item \texttt{Attribute} (density) → \texttt{ColorRamp} → \texttt{Principled Volume}
+    \item Połączenie z \texttt{Volume Output}
+    \item Możliwość dodania emisji dla efektu ognia
+\end{enumerate}
+
+\section{Praktyczne wskazówki}
+
+\begin{itemize}[leftmargin=*]
+    \item Renderowanie animacji: \texttt{Ctrl + F12} (lub \texttt{Ctrl + Fn + F12})
+    \item Symulacje wymagają cache -- przed renderowaniem należy przeliczyć fizykę
+    \item Wyższa rozdzielczość = lepsza jakość, ale dłuższy czas obliczeń
+    \item Adaptive Domain znacząco optymalizuje wydajność
+\end{itemize}
+
+\section{Zastosowania}
+\begin{itemize}[leftmargin=*]
+    \item Efekty specjalne w grach mobilnych
+    \item Wizualizacje 3D w aplikacjach AR
+    \item Renderowanie sekwencji dla cutscen
+    \item Tworzenie assetów dla silników gier
+\end{itemize}
+

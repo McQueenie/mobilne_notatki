@@ -1,0 +1,106 @@
+\section*{Wykład 12 - Grafika 3D - Blender część 1}
+\textit{26.05.2025 - Notatki z wykładu SMiM}
+
+\section{Historia Blendera}
+\begin{itemize}[itemsep=2pt]
+    \item \textbf{2002} - firma NaN miała problemy finansowe
+    \item Ton Roosendaal powołał \important{Blender Foundation}
+    \item Zebrano 100 000 EUR z dobrowolnych wpłat
+    \item Blender stał się \important{open source} (GNU GPL)
+    \item Konkurencja: Maya, 3ds Max (oprogramowanie komercyjne)
+\end{itemize}
+
+\section{Podstawowe elementy sceny}
+\begin{enumerate}
+    \item \important{Kamera} - określa perspektywę renderowania
+    \item \important{Światło} - źródło oświetlenia sceny
+    \item \important{Obiekt} - domyślnie sześcian/kostka
+\end{enumerate}
+
+\section{Nawigacja w przestrzeni 3D}
+\begin{itemize}[itemsep=2pt]
+    \item \textbf{Orbitowanie}: \key{ŚKM} + przesuwanie
+    \item \textbf{Zoom}: rolka myszy, \key{Ctrl +}, \key{Ctrl -}
+    \item \textbf{Panoramowanie}: \key{Shift + ŚKM} + przesuwanie
+\end{itemize}
+
+\section{Najważniejsze skróty klawiszowe}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Skrót} & \textbf{Funkcja} \\
+\hline
+\key{Tab} & Przełączanie tryb obiekt $\leftrightarrow$ tryb edycji \\
+\key{Ctrl Tab} & Wybór trybu siatki (wierzchołki/krawędzie/ściany) \\
+\key{G} & Przesuwanie (Grab) \\
+\key{R} & Obracanie (Rotate) \\
+\key{S} & Skalowanie (Scale) \\
+\key{G G} & Edge slide (przesuwanie wzdłuż krawędzi) \\
+\key{Z} & Przełączanie widoku (szkielet/solidny) \\
+\key{Shift S} & Menu ustawiania kursora \\
+\key{F12} & Renderowanie obrazu \\
+\key{Ctrl F12} & Renderowanie animacji \\
+\key{I} & Utworzenie klatki kluczowej (animacja) \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Tryby pracy}
+\begin{enumerate}
+    \item \textbf{Tryb obiektu} - operacje na całych obiektach
+    \item \textbf{Tryb edycji} - modyfikacja geometrii (wierzchołki, krawędzie, ściany)
+\end{enumerate}
+
+\section{Operacje modelowania}
+\begin{itemize}[itemsep=2pt]
+    \item \textbf{Loop Cut} - dodawanie przekrojów poprzecznych
+    \item \textbf{Subdivide} - zagęszczanie siatki
+    \item \textbf{Extrude} - wyciąganie geometrii
+    \item \textbf{Push/Pull} - deformacja struktury siatki
+\end{itemize}
+
+\section{Materiały i powierzchnie}
+\begin{itemize}[itemsep=2pt]
+    \item Domyślny materiał: \important{Principled BSDF}
+    \item BSDF = Bidirectional Scattering Distribution Function
+    \item \textbf{Materiał} - określa wygląd powierzchni o stałej strukturze
+    \item \textbf{Tekstura} - określa wygląd powierzchni niejednorodnej (wzory, zagłębienia)
+\end{itemize}
+
+\section{Światło - podstawowe właściwości}
+\begin{enumerate}
+    \item \textbf{Emisja} - współczynnik emisji światła
+    \item \textbf{Odbicie} - współczynnik odbicia
+    \item \textbf{Pochłanianie} - współczynnik absorpcji
+\end{enumerate}
+
+\section{Renderowanie}
+\begin{itemize}[itemsep=2pt]
+    \item \important{Renderowanie} - tworzenie obrazów z perspektywy kamery
+    \item Uwzględnia: oświetlenie sceny, właściwości fizyczne powierzchni
+    \item Dostępne silniki: Cycles, Eevee, Workbench
+    \item Ustawienia w panelu właściwości (\key{Shift F7})
+\end{itemize}
+
+\section{Panele właściwości}
+Dostęp przez \key{Shift F1} do \key{Shift F12}:
+\begin{itemize}[itemsep=2pt]
+    \item Render - wybór silnika renderowania
+    \item Output - ustawienia wyjścia renderowania
+    \item World - właściwości środowiska/świata
+    \item Material - edycja materiałów
+    \item Texture - zarządzanie teksturami
+\end{itemize}
+
+\section{Podstawy animacji}
+\begin{itemize}[itemsep=2pt]
+    \item \key{I} - wstawienie klatki kluczowej
+    \item Klatki kluczowe zapisują stan właściwości obiektów
+    \item Blender interpoluje wartości między klatkami
+\end{itemize}
+
+\vspace{1em}
+\hrule
+\vspace{0.5em}
+\textit{Uwaga: ŚKM = Środkowy Klawisz Myszy (rolka)}
+

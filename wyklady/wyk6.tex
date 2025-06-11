@@ -1,0 +1,109 @@
+\section*{Wykład 6 - Sygnały, Informacja i Kompresja}
+\textbf{Data:} 7.04.2025 \\
+\textbf{Wykładowca:} dr inż. Jakub Długosz
+
+\section{Sygnały}
+
+\subsection{Definicja}
+\textbf{Sygnał} -- nośnik informacji odzwierciedlający zmianę stanu obiektu fizycznego lub mierzalnej wielkości fizycznej.
+
+\subsection{Szum}
+\textbf{Szum} -- niepożądane składniki sygnałów.
+
+\subsubsection{Rodzaje szumów}
+\begin{itemize}[noitemsep]
+    \item \textbf{Wewnętrzne (procesowe)} -- związane z obserwowanym obiektem
+    \item \textbf{Zewnętrzne (zakłócenia)} -- niezwiązane z obserwowanym obiektem
+\end{itemize}
+
+\subsubsection{Typy szumów}
+\begin{itemize}[noitemsep]
+    \item \textbf{Szum biały} -- płaskie widmo, równomierna intensywność w całym paśmie, brak pamięci
+    \item \textbf{Szum kolorowy} -- nierównomierny rozkład widmowy mocy (czerwony/Browna, różowy, niebieski, fioletowy)
+    \item \textbf{Szum impulsowy} -- krótkotrwałe impulsy o dużej amplitudzie
+\end{itemize}
+
+\section{Model Komunikacji Shannona-Weavera (1948)}
+
+Model liniowy z jednokierunkowym przepływem informacji:
+\begin{center}
+Źródło $\rightarrow$ Nadajnik $\rightarrow$ Kanał (+szum) $\rightarrow$ Odbiornik $\rightarrow$ Cel
+\end{center}
+
+\section{Przetwarzanie Analogowo-Cyfrowe}
+
+\subsection{Podstawowe procesy}
+\begin{enumerate}[noitemsep]
+    \item \textbf{Próbkowanie} -- modulacja amplitudowa (AM)
+    \item \textbf{Kwantowanie} -- przyporządkowanie wartościom rzeczywistym wartości dyskretnych
+    \item \textbf{Kodowanie} -- reprezentacja cyfrowa
+\end{enumerate}
+
+\section{Informacja}
+
+\textbf{Definicja}: To wszystko, co przekazane okazuje się użyteczne dla odbiorcy. Służy realizacji celu, zaspokaja potrzeby, buduje wiedzę.
+
+\subsection{Cechy przekazu}
+\begin{itemize}[noitemsep]
+    \item Odbiorca weryfikuje użyteczność danych
+    \item Dane mają znaczenie opisane funkcją semantyczną
+    \item Forma przekazu równie ważna jak treść
+\end{itemize}
+
+\section{Kompresja Danych}
+
+\subsection{Definicje}
+\textbf{Kompresja} -- odwracalny lub nieodwracalny proces redukcji długości reprezentacji danych.
+
+\subsection{Rodzaje kompresji}
+\begin{enumerate}
+    \item \textbf{Bezstratna (odwracalna)}
+    \begin{itemize}[noitemsep]
+        \item Rekonstrukcja z dokładnością do pojedynczego bitu
+        \item Zastosowanie: dokumenty tekstowe, dane finansowe, niektóre obrazy medyczne
+    \end{itemize}
+    
+    \item \textbf{Stratna (nieodwracalna)}
+    \begin{itemize}[noitemsep]
+        \item Brak możliwości dokładnej rekonstrukcji
+        \item Pojęcie bezstratności percepcyjnej (wizualnej, słuchowej)
+        \item Zastosowanie: multimedia (obrazy, dźwięk, wideo)
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Miary efektywności}
+\begin{itemize}[noitemsep]
+    \item \textbf{CR (Compression Ratio)} -- stosunek bitów oryginalnych do skompresowanych (np. 100:1)
+    \item \textbf{CP (Compression Percentage)} -- $CP = (1 - 1/CR) \cdot 100\%$
+    \item \textbf{BR (Bit Rate)} -- średnia liczba bitów na element źródłowy
+\end{itemize}
+
+\section{Metody Kodowania}
+
+\subsection{RLE (Run Length Encoding)}
+Kodowanie długości sekwencji -- seria powtórzeń symboli opisywana parą: (długość, symbol).
+
+\subsection{Twierdzenie Shannona}
+Aby zakodować proces o entropii $H(S)$ do postaci binarnej z możliwością dokładnej rekonstrukcji, potrzeba co najmniej $H(S)$ bitów.
+
+\section{Standardy Kompresji}
+
+\subsection{JPEG}
+\begin{itemize}[noitemsep]
+    \item Konwersja RGB $\rightarrow$ YCrCb
+    \item Wykorzystuje DCT (Discrete Cosine Transform)
+    \item Kompresja stratna dla obrazów
+\end{itemize}
+
+\subsection{MPEG}
+Grupa standardów dla kompresji wideo i audio.
+
+\section{Strumieniowanie}
+\textbf{Definicja}: Przesyłanie danych w formie strumienia z wykorzystaniem kolejno napływających danych bezpośrednio po otrzymaniu.
+
+\section{Metadane}
+\begin{itemize}[noitemsep]
+    \item \textbf{Deskryptor} -- numeryczny sposób opisu atrybutów obiektów multimedialnych
+    \item \textbf{Indeks} -- zbiór cech/wartości atrybutu wraz z identyfikatorami obiektów
+\end{itemize}
+

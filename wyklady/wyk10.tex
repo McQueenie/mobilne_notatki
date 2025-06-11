@@ -1,0 +1,117 @@
+\section*{Wykład 10 - Testowanie aplikacji mobilnych}
+\textit{12.05.2025 - Dr inż. Jakub Długosz}
+
+\section{Środowiska programistyczne}
+
+\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=Podział środowisk]
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Deweloperskie} -- przeznaczone do bieżącej pracy nad rozwojem oprogramowania
+    \item \textbf{Produkcyjne} -- dedykowane końcowemu użytkownikowi
+    \item \textbf{Testowe} -- środowiska pośrednie umożliwiające wykonywanie testów
+\end{itemize}
+\end{tcolorbox}
+
+\section{Klasyfikacja testów oprogramowania}
+
+\subsection{Podstawowe rodzaje testów}
+
+\begin{enumerate}
+\item \textbf{Testy jednostkowe}
+    \begin{itemize}
+        \item Testują jednostkę kodu (klasę, obiekt, funkcję) w izolacji
+        \item Zależności symulowane przez mocki lub stuby
+        \item Cel: znalezienie błędów w implementacji danego komponentu
+    \end{itemize}
+
+\item \textbf{Testy integracyjne}
+    \begin{itemize}
+        \item Testują współpracę między komponentami
+        \item Zakres: od kilku klas do różnych systemów (baza danych, serwery)
+        \item Cel: wykrycie błędów podczas interakcji między systemami
+    \end{itemize}
+
+\item \textbf{Testy systemowe}
+    \begin{itemize}
+        \item Przeprowadzane po integracji elementów systemu
+        \item Obejmują testy end-to-end (E2E) z perspektywy użytkownika
+        \item Podstawa: wymagania, przypadki użycia, specyfikacja
+    \end{itemize}
+
+\item \textbf{Testy akceptacyjne}
+    \begin{itemize}
+        \item Wykonywane przez klienta lub użytkowników końcowych
+        \item Cel: upewnienie się, że aplikacja spełnia oczekiwania klienta
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Testy specjalistyczne}
+
+\begin{itemize}
+    \item \textbf{Testy wydajnościowe} -- sprawdzają wydajność systemu (Apache Bench, JMeter)
+    \item \textbf{Testy bezpieczeństwa} -- analiza pod kątem bezpieczeństwa (Pentesty, OpenVAS)
+    \item \textbf{Testy smoke} -- podstawowe testy głównych funkcji systemu
+    \item \textbf{Testy eksploracyjne} -- swobodne testowanie bez ścisłego scenariusza
+\end{itemize}
+
+\section{Modele organizacji testów}
+
+\begin{tcolorbox}[colback=green!5!white,colframe=green!75!black]
+\textbf{Piramida testów} $\rightarrow$ \textbf{Model Kryształ} $\rightarrow$ \textbf{Model Trofeum}
+\begin{itemize}
+    \item Różne podejścia do proporcji rodzajów testów
+    \item Piramida: dużo testów jednostkowych, mało E2E
+    \item Trofeum: więcej testów integracyjnych
+\end{itemize}
+\end{tcolorbox}
+
+\section{Testowanie manualne vs automatyczne}
+
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+\hline
+\textbf{Testowanie manualne} & \textbf{Testowanie automatyczne} \\
+\hline
+- Wykonywane osobiście przez testera & - Wykonywane przez maszynę \\
+- Kosztowne czasowo & - Szybkie wykonanie \\
+- Podatne na błędy ludzkie & - Powtarzalne i niezawodne \\
+- Elastyczne & - Wymaga napisania skryptów \\
+\hline
+\end{tabular}
+
+\section{Specyficzne aspekty testowania aplikacji mobilnych}
+
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Przenoszenie preferencji systemowych} (np. wyciszenie dźwięków)
+    \item \textbf{Reakcja na przerwania} (połączenia telefoniczne)
+    \item \textbf{Zarządzanie baterią} (zachowanie przy niskim stanie baterii)
+    \item \textbf{Uprawnienia aplikacji} (reakcja na wyłączenie przywilejów)
+    \item \textbf{Responsywność} (różne urządzenia, rozdzielczości, orientacje ekranu)
+    \item \textbf{Połączenie internetowe} (brak/zmiana typu połączenia)
+\end{enumerate}
+
+\section{Narzędzia i platformy testowania}
+
+\subsection{Farmy urządzeń w chmurze}
+\begin{itemize}
+    \item AWS Device Farm
+    \item Firebase Test Lab (10 testów/dzień na wirtualnych, 5 na fizycznych - plan darmowy)
+    \item BrowserStack
+    \item Azure DevOps Pipelines
+    \item LambdaTest
+\end{itemize}
+
+\subsection{Automatyzacja testów}
+\textbf{Appium} -- popularne narzędzie do automatyzacji testów aplikacji mobilnych
+\begin{itemize}
+    \item Wspiera Android i iOS
+    \item Pozwala pisać testy w różnych językach programowania
+    \item Dokumentacja: \url{https://appium.io/docs/en/latest/}
+\end{itemize}
+
+\section{ISTQB CT-MAT}
+Certyfikacja dla testerów aplikacji mobilnych obejmująca:
+\begin{itemize}
+    \item Specyfikę testowania mobilnego
+    \item Internacjonalizację (i18n) i lokalizację (l10n)
+    \item Testowanie na różnych platformach i urządzeniach
+\end{itemize}
+

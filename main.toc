@@ -1,0 +1,126 @@
+\babel@toc {polish}{}\relax 
+\contentsline {section}{\numberline {1}Informacje organizacyjne}{2}{section.1}%
+\contentsline {section}{\numberline {2}Multimedia cyfrowe - definicja}{2}{section.2}%
+\contentsline {section}{\numberline {3}Cechy cyfrowych mediów wg Manovicha}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Edycja nieniszcząca}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Przekaz multimedialny}{2}{section.4}%
+\contentsline {section}{\numberline {5}Rodzaje danych multimedialnych}{2}{section.5}%
+\contentsline {section}{\numberline {6}Informacja}{3}{section.6}%
+\contentsline {section}{\numberline {7}Rejestracja danych}{3}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Cyfrowe rejestratory obrazów}{3}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Prezentacja multimediów}{3}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Technologie wyświetlania}{3}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Formy wizualizacji}{3}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Ewolucja Internetu}{3}{section.9}%
+\contentsline {section}{\numberline {10}Projektowanie}{3}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Wireframe}{3}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Projektowanie uniwersalne}{4}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Dostępność cyfrowa}{4}{section.11}%
+\contentsline {section}{\numberline {12}Standardy kompresji}{4}{section.12}%
+\contentsline {section}{\numberline {13}Sygnały}{5}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Definicja}{5}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Szum}{5}{subsection.13.2}%
+\contentsline {subsubsection}{\numberline {13.2.1}Rodzaje szumów}{5}{subsubsection.13.2.1}%
+\contentsline {subsubsection}{\numberline {13.2.2}Typy szumów}{5}{subsubsection.13.2.2}%
+\contentsline {section}{\numberline {14}Model Komunikacji Shannona-Weavera (1948)}{5}{section.14}%
+\contentsline {section}{\numberline {15}Przetwarzanie Analogowo-Cyfrowe}{5}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Podstawowe procesy}{5}{subsection.15.1}%
+\contentsline {section}{\numberline {16}Informacja}{5}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Cechy przekazu}{5}{subsection.16.1}%
+\contentsline {section}{\numberline {17}Kompresja Danych}{6}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Definicje}{6}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Rodzaje kompresji}{6}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Miary efektywności}{6}{subsection.17.3}%
+\contentsline {section}{\numberline {18}Metody Kodowania}{6}{section.18}%
+\contentsline {subsection}{\numberline {18.1}RLE (Run Length Encoding)}{6}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Twierdzenie Shannona}{6}{subsection.18.2}%
+\contentsline {section}{\numberline {19}Standardy Kompresji}{6}{section.19}%
+\contentsline {subsection}{\numberline {19.1}JPEG}{6}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}MPEG}{6}{subsection.19.2}%
+\contentsline {section}{\numberline {20}Strumieniowanie}{6}{section.20}%
+\contentsline {section}{\numberline {21}Metadane}{6}{section.21}%
+\contentsline {section}{\numberline {22}Myślenie projektowe (Design Thinking)}{7}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Mapa empatii}{7}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Tablica Kanban}{7}{subsection.22.2}%
+\contentsline {section}{\numberline {23}Użytkownicy aplikacji multimedialnej}{7}{section.23}%
+\contentsline {section}{\numberline {24}Model 3-ech P}{7}{section.24}%
+\contentsline {section}{\numberline {25}Komunikacja wizualna}{8}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Diagram Gutenberga}{8}{subsection.25.1}%
+\contentsline {section}{\numberline {26}Zasady projektowania wizualnego}{8}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Zasada jedności}{8}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Zasada wyróżnienia}{8}{subsection.26.2}%
+\contentsline {subsection}{\numberline {26.3}Zasada trójpodziału}{8}{subsection.26.3}%
+\contentsline {subsection}{\numberline {26.4}Zasada psychologicznego domknięcia}{8}{subsection.26.4}%
+\contentsline {section}{\numberline {27}Trójkąt ekspozycji}{8}{section.27}%
+\contentsline {section}{\numberline {28}Paradygmaty aplikacji mobilnych}{9}{section.28}%
+\contentsline {subsection}{\numberline {28.1}Sytuacyjność komunikacji}{9}{subsection.28.1}%
+\contentsline {subsection}{\numberline {28.2}Personalizacja}{9}{subsection.28.2}%
+\contentsline {subsection}{\numberline {28.3}Innowacyjność}{9}{subsection.28.3}%
+\contentsline {section}{\numberline {29}Własność intelektualna}{9}{section.29}%
+\contentsline {subsection}{\numberline {29.1}Licencje}{9}{subsection.29.1}%
+\contentsline {section}{\numberline {30}Podsumowanie}{9}{section.30}%
+\contentsline {section}{\numberline {31}Interfejs użytkownika}{10}{section.31}%
+\contentsline {section}{\numberline {32}Rodzaje interfejsów użytkownika}{10}{section.32}%
+\contentsline {section}{\numberline {33}Słowniczek pojęć}{10}{section.33}%
+\contentsline {section}{\numberline {34}Użyteczność wg Jakoba Nielsena}{11}{section.34}%
+\contentsline {section}{\numberline {35}Personalizacja vs Dostosowywanie}{11}{section.35}%
+\contentsline {subsection}{\numberline {35.1}Personalizacja (personalization)}{11}{subsection.35.1}%
+\contentsline {subsection}{\numberline {35.2}Dostosowywanie (customization)}{11}{subsection.35.2}%
+\contentsline {section}{\numberline {36}I18n vs L10n}{11}{section.36}%
+\contentsline {section}{\numberline {37}Material Design (Android)}{11}{section.37}%
+\contentsline {subsection}{\numberline {37.1}Kluczowe elementy}{11}{subsection.37.1}%
+\contentsline {subsection}{\numberline {37.2}Komponenty UI}{12}{subsection.37.2}%
+\contentsline {subsection}{\numberline {37.3}Ważne aspekty}{12}{subsection.37.3}%
+\contentsline {section}{\numberline {38}Apple Human Interface Guidelines (iOS)}{12}{section.38}%
+\contentsline {subsection}{\numberline {38.1}Najlepsze praktyki dla gestów}{12}{subsection.38.1}%
+\contentsline {subsection}{\numberline {38.2}Tryb pełnoekranowy}{12}{subsection.38.2}%
+\contentsline {section}{\numberline {39}Definicja użyteczności wg ISO 9241}{12}{section.39}%
+\contentsline {section}{\numberline {40}Historia UX -- kluczowe momenty}{13}{section.40}%
+\contentsline {section}{\numberline {41}Wybrane zasady projektowe Dona Normana}{13}{section.41}%
+\contentsline {section}{\numberline {42}Przedmiot Normana}{13}{section.42}%
+\contentsline {section}{\numberline {43}Definicja animacji}{14}{section.43}%
+\contentsline {section}{\numberline {44}12 zasad klasycznych animacji (Johnston i Thomas, 1981)}{14}{section.44}%
+\contentsline {section}{\numberline {45}Wytyczne projektowania animacji}{14}{section.45}%
+\contentsline {subsection}{\numberline {45.1}Apple Human Interface Guidelines - Motion}{14}{subsection.45.1}%
+\contentsline {subsection}{\numberline {45.2}Material Design - Motion}{14}{subsection.45.2}%
+\contentsline {section}{\numberline {46}Funkcje kontroli przebiegu animacji}{14}{section.46}%
+\contentsline {subsection}{\numberline {46.1}Krzywe Béziera}{14}{subsection.46.1}%
+\contentsline {section}{\numberline {47}Implementacja animacji}{15}{section.47}%
+\contentsline {subsection}{\numberline {47.1}CSS}{15}{subsection.47.1}%
+\contentsline {subsection}{\numberline {47.2}Android}{15}{subsection.47.2}%
+\contentsline {section}{\numberline {48}Specjalne efekty animacji}{15}{section.48}%
+\contentsline {subsection}{\numberline {48.1}Efekt Kena Burnsa}{15}{subsection.48.1}%
+\contentsline {subsection}{\numberline {48.2}Efekt paralaksy}{15}{subsection.48.2}%
+\contentsline {section}{\numberline {49}Najlepsze praktyki}{15}{section.49}%
+\contentsline {section}{\numberline {50}Narzędzia}{16}{section.50}%
+\contentsline {section}{\numberline {51}Środowiska programistyczne}{17}{section.51}%
+\contentsline {section}{\numberline {52}Klasyfikacja testów oprogramowania}{17}{section.52}%
+\contentsline {subsection}{\numberline {52.1}Podstawowe rodzaje testów}{17}{subsection.52.1}%
+\contentsline {subsection}{\numberline {52.2}Testy specjalistyczne}{17}{subsection.52.2}%
+\contentsline {section}{\numberline {53}Modele organizacji testów}{18}{section.53}%
+\contentsline {section}{\numberline {54}Testowanie manualne vs automatyczne}{18}{section.54}%
+\contentsline {section}{\numberline {55}Specyficzne aspekty testowania aplikacji mobilnych}{18}{section.55}%
+\contentsline {section}{\numberline {56}Narzędzia i platformy testowania}{18}{section.56}%
+\contentsline {subsection}{\numberline {56.1}Farmy urządzeń w chmurze}{18}{subsection.56.1}%
+\contentsline {subsection}{\numberline {56.2}Automatyzacja testów}{18}{subsection.56.2}%
+\contentsline {section}{\numberline {57}ISTQB CT-MAT}{19}{section.57}%
+\contentsline {section}{\numberline {58}Historia Blendera}{20}{section.58}%
+\contentsline {section}{\numberline {59}Podstawowe elementy sceny}{20}{section.59}%
+\contentsline {section}{\numberline {60}Nawigacja w przestrzeni 3D}{20}{section.60}%
+\contentsline {section}{\numberline {61}Najważniejsze skróty klawiszowe}{20}{section.61}%
+\contentsline {section}{\numberline {62}Tryby pracy}{20}{section.62}%
+\contentsline {section}{\numberline {63}Operacje modelowania}{21}{section.63}%
+\contentsline {section}{\numberline {64}Materiały i powierzchnie}{21}{section.64}%
+\contentsline {section}{\numberline {65}Światło - podstawowe właściwości}{21}{section.65}%
+\contentsline {section}{\numberline {66}Renderowanie}{21}{section.66}%
+\contentsline {section}{\numberline {67}Panele właściwości}{21}{section.67}%
+\contentsline {section}{\numberline {68}Podstawy animacji}{21}{section.68}%
+\contentsline {section}{\numberline {69}Animacje w Blenderze}{22}{section.69}%
+\contentsline {section}{\numberline {70}Efekty specjalne - Dym i Ogień}{22}{section.70}%
+\contentsline {subsection}{\numberline {70.1}Konfiguracja podstawowa}{22}{subsection.70.1}%
+\contentsline {subsection}{\numberline {70.2}Ustawienia domeny dymu}{22}{subsection.70.2}%
+\contentsline {section}{\numberline {71}Edytor węzłów dla materiałów}{22}{section.71}%
+\contentsline {subsection}{\numberline {71.1}Aktywacja}{22}{subsection.71.1}%
+\contentsline {subsection}{\numberline {71.2}Węzły dla efektów objętościowych}{22}{subsection.71.2}%
+\contentsline {section}{\numberline {72}Praktyczne wskazówki}{23}{section.72}%
+\contentsline {section}{\numberline {73}Zastosowania}{23}{section.73}%
